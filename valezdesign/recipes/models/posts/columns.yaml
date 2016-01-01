@@ -23,7 +23,7 @@ columns:
         label: valezdesign.recipes::lang.form.statistics
         searchable: true
         type: partial
-        path: ~/plugins/indikator/news/models/posts/_statistics.htm
+        path: ~/plugins/valezdesign/recipes/models/posts/_statistics.htm
 
     published_at:
         label: valezdesign.recipes::lang.form.published

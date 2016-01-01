@@ -17,7 +17,6 @@ return [
     ],
     'new' => [
         'posts' => 'New post',
-        'subscribers' => 'New subscriber'
     ],
     'form' => [
         // General
