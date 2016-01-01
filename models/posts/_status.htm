@@ -1,0 +1,9 @@
+<?php
+
+$status = [
+    1 => 'valezdesign.recipes::lang.form.status_published',
+    2 => 'valezdesign.recipes::lang.form.status_hide',
+    3 => 'valezdesign.recipes::lang.form.status_draft'
+];
+
+echo Lang::get($status[$record->status]);

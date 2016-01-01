@@ -1,0 +1,53 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    title:
+        label: valezdesign.recipes::lang.form.title
+        required: true
+        span: auto
+
+    slug:
+        label: valezdesign.recipes::lang.form.slug
+        span: auto
+
+    introductory:
+        label: valezdesign.recipes::lang.form.introductory
+        type: richeditor
+        size: large
+        span: full
+
+    content:
+        label: valezdesign.recipes::lang.form.content
+        required: true
+        type: richeditor
+        size: large
+
+secondaryTabs:
+    fields:
+
+        image:
+            label: valezdesign.recipes::lang.form.image
+            type: mediafinder
+            mode: image
+
+        status:
+            label: valezdesign.recipes::lang.form.status
+            required: true
+            type: dropdown
+            options:
+                1: valezdesign.recipes::lang.form.status_published
+                2: valezdesign.recipes::lang.form.status_hide
+                3: valezdesign.recipes::lang.form.status_draft
+
+        published_at:
+            label: valezdesign.recipes::lang.form.published
+            type: datepicker
+            mode: datetime
+
+        send:
+            label: valezdesign.recipes::lang.form.send
+            type: switch
+            default: true

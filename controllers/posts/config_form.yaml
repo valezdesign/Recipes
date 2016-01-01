@@ -1,0 +1,17 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: valezdesign.recipes::lang.title.posts
+form: ~/plugins/valezdesign/recipes/models/posts/fields.yaml
+
+modelClass: Valezdesign\Recipes\Models\Posts
+defaultRedirect: valezdesign/recipes/posts
+
+create:
+    redirect: valezdesign/recipes/posts
+    redirectClose: valezdesign/recipes/posts
+
+update:
+    redirect: valezdesign/recipes/posts
+    redirectClose: valezdesign/recipes/posts

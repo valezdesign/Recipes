@@ -1,0 +1,46 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    title:
+        label: valezdesign.recipes::lang.form.title
+        searchable: true
+
+    slug:
+        label: valezdesign.recipes::lang.form.slug
+        searchable: true
+        invisible: true
+
+    status:
+        label: valezdesign.recipes::lang.form.status
+        searchable: true
+        type: partial
+        path: ~/plugins/valezdesign/recipes/models/posts/_status.htm
+
+    statistics:
+        label: valezdesign.recipes::lang.form.statistics
+        searchable: true
+        type: partial
+        path: ~/plugins/indikator/news/models/posts/_statistics.htm
+
+    published_at:
+        label: valezdesign.recipes::lang.form.published
+        searchable: true
+        invisible: true
+        type: datetime
+        format: Y-m-d G:i
+
+    created_at:
+        label: valezdesign.recipes::lang.form.created
+        searchable: true
+        type: datetime
+        format: Y-m-d G:i
+
+    updated_at:
+        label: valezdesign.recipes::lang.form.updated
+        searchable: true
+        invisible: true
+        type: datetime
+        format: Y-m-d G:i

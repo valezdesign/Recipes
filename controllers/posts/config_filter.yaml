@@ -1,0 +1,20 @@
+# ===================================
+# Filter Scope Definitions
+# ===================================
+
+scopes:
+
+    status_published:
+        label: valezdesign.recipes::lang.form.status_published
+        type: checkbox
+        conditions: status = 1
+
+    status_hide:
+        label: valezdesign.recipes::lang.form.status_hide
+        type: checkbox
+        conditions: status = 2
+
+    status_draft:
+        label: valezdesign.recipes::lang.form.status_draft
+        type: checkbox
+        conditions: status = 3
