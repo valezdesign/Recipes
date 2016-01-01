@@ -8,7 +8,7 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'valezdesign.recipes::lang.plugin.name',
+            'name'        => 'Recipes',
             'description' => 'valezdesign.recipes::lang.plugin.description',
             'author'      => 'valezdesign.news::lang.plugin.author',
             'icon'        => 'icon-cutlery',
